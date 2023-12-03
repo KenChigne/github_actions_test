@@ -8,7 +8,7 @@ jobs:
       - name: Checkout on master
         uses: actions/checkout@v3
         with: 
-           repository: 'github_actions_test'          
+           repository: 'KenChigne/github_actions_test'          
 
       - name: Set up Python
         uses: actions/setup-python@master
